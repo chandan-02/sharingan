@@ -36,6 +36,6 @@ while True:
         ad = " ".join(mainTextOutput.split())
         print(ad[10:500])
         # print(ad)
-        if(win32api.GetAsyncKeyState(win32con.VK_END)):
-            os.system('exit')
+    if(win32api.GetAsyncKeyState(win32con.VK_END)):
+        os.system('exit')
 
